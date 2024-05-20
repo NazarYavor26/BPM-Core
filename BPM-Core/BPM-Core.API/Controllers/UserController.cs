@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BPM_Core.Controllers
+namespace BPM_Core.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
