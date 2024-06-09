@@ -1,14 +1,16 @@
-﻿using BPM_Core.DAL;
+﻿using BPM_Core.BLL.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace BPM_Core.BLL
 {
-    public class BLLModule
+    public static class BLLModule
     {
-        public static void Load(IServiceCollection services, IConfiguration configuration)
+        public static void InitializeBLL(this IServiceCollection services, IConfiguration configuration)
         {
-            DALModule.Load(services, configuration);
+            services.AddTransient<ITeamService, TeamService>();
+            services.AddTransient<IUserService, UserService>();
+            
         }
     }
 }
