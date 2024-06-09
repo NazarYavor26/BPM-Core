@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BPM-Core.DAL", "BPM-Core.DA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BPM-Core.API", "BPM-Core.API\BPM-Core.API.csproj", "{4B866D3B-E998-40D2-A1DF-E167047FFDB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPM-Core.ServiceBus", "BPM-Core.ServiceBus\BPM-Core.ServiceBus.csproj", "{257D147D-EEAE-4F19-BC66-9F88E052F108}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4B866D3B-E998-40D2-A1DF-E167047FFDB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B866D3B-E998-40D2-A1DF-E167047FFDB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B866D3B-E998-40D2-A1DF-E167047FFDB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257D147D-EEAE-4F19-BC66-9F88E052F108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257D147D-EEAE-4F19-BC66-9F88E052F108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257D147D-EEAE-4F19-BC66-9F88E052F108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257D147D-EEAE-4F19-BC66-9F88E052F108}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
